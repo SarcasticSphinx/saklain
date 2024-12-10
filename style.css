@@ -4,8 +4,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   overflow: hidden;
   background-color: pink;
+  font-family: 'Roboto', sans-serif;
 }
 .saklain-img {
   width: 400px;
@@ -45,9 +47,16 @@ body {
   font-weight: bold;
   width: 100%;
 }
+.hit-on-my-face{
+  font-size: 2rem;
+  padding: 1rem;
+}
 
 /* responsive for mobile */
-@media (max-width: 400px) {
+@media (max-width: 360px) {
+  body{
+    overflow: hidden;
+  }
   .saklain-img {
     width: 200px;
     height: 200px;
@@ -75,4 +84,8 @@ body {
     font-weight: bold;
     width: 100%;
   }
+  .hit-on-my-face{
+    font-size: 1.5rem;
+  }
 }
+
