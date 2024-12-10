@@ -4,7 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+
   overflow: hidden;
   background-color: pink;
   font-family: 'Roboto', sans-serif;
@@ -29,7 +29,7 @@ body {
 .sound {
   position: absolute;
   top: 10%;
-  right: 30%;
+  right: 35%;
   display: none;
 }
 .sound img {
@@ -56,6 +56,7 @@ body {
 @media (max-width: 360px) {
   body{
     overflow: hidden;
+      flex-direction: column;
   }
   .saklain-img {
     width: 200px;
@@ -88,4 +89,3 @@ body {
     font-size: 1.5rem;
   }
 }
-
