@@ -1,0 +1,48 @@
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: pink;
+}
+.saklain-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.juta-img {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+  transform: rotate(20deg) translateY(10px) translateZ(-50px) scale(1.1);
+  
+  scale: 1.2;
+}
+.juta-img:active {
+  transform: rotate(10deg) translateY(-10px) translateZ(100px);
+}
+.sound{
+    position: absolute;
+    top: 10%;
+    right: 30%;
+    display: none;
+
+}
+.sound img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.sound p{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
